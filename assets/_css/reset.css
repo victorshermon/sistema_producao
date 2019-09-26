@@ -5,6 +5,13 @@ body
   margin:0px; padding:0px;
 }
 
+
+@font-face
+{
+  src:url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  font-family:roboto;
+}
+
 @font-face {
  src:url('../fonts/rubik-regular.woff2');
  font-family: rubik;
@@ -17,5 +24,10 @@ ul
 
 a
 {
-  text-decoration:none; color:#fff;
+  text-decoration:none; color:#fff; font-family:roboto; color:#3c4858; font-size:14px;
+}
+
+p
+{
+  padding:0px; margin:0px; font-size:15px;
 }

@@ -70,7 +70,7 @@
 
 .material--icon
 {
-  content:url('../_image/dashboard.svg'); display:inline-block; width:100%; max-width:30px;
+  content:url('../_image/dashboard.svg'); display:inline-block; width:100%; max-width:25px;
   position:absolute; left:15px; top:10px;
 }
 .add

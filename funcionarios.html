@@ -50,10 +50,58 @@
 
     <main class="main">
       <header class="main__header">
-       Lista de Usúarios
+       <h4>Lista de Usúarios</h4>
+       <div class="header__form">
+         <label for="filtrar">Filtrar Por</label>
+         <select class="form__header"id="filtrar" name="funcionario">
+            <option value="0">Pedro</option>
+            <option value="1">João</option>
+            <option value="2">Marcelo</option>
+            <option value="3">Fernando</option>
+         </select>
+         <span>Do dia</span>
+         <input type="date" name="data_start" required>
+         <span>Até</span>
+         <input type="date" name="data_finally" required>
+       </div>
       </header>
       <section class="main__section">
-
+       <div class="main__table">
+         <div class="main__message">
+           <h3>Listando Funcionarios</h3>
+           <p>Funcionarios Atualmente Ativos na Empresa</p>
+         </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Funcionario</th>
+                <th>Diaria</th>
+                <th>Tipo Produção</th>
+                <th>Data</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Victor</td>
+                <td>72</td>
+                <td>8 Luxo e 2 Cento</td>
+                <td>27/09/2019</td>
+              </tr>
+              <tr>
+                <td>Victor</td>
+                <td>72</td>
+                <td>8 Luxo e 2 Cento</td>
+                <td>27/09/2019</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Total</td>
+                <td>144</td>
+              </tr>
+            </tfoot>
+          </table>
+       </div>
       </section>
     </main>
 
